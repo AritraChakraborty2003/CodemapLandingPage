@@ -6,7 +6,7 @@ const About = () => {
           {(screen.width > 1000 && (
             <>
               <div className="p-2 titleHolder  w-[100vw]  ">
-                <p className="text-[7vmin] lg:text-[8.5vmin] font-extrabold font-sans-serif">
+                <p className="text-[7vmin] lg:text-[8.5vmin] font-extrabold font-sans-serif mt-4">
                   <span className="text-purple">About</span> Us
                 </p>
               </div>
@@ -62,7 +62,7 @@ const About = () => {
                 </div>
               </div>
               <div className="rightHolder w-[100vw]">
-                <p className="text-[3.75vmin] pl-3 pr-3 leading-[7.45vmin] font-poppins">
+                <p className="text-[3.75vmin] pl-3 pr-3 leading-[7.45vmin] font-poppins pb-7">
                   Welcome to Codemap, where technology, education, and community
                   come together. We are an IT solutions company dedicated to
                   providing innovative software and AI-driven services,

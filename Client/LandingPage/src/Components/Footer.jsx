@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="footerHolder pb-4 pt-4 bg-mainBg flex flex-col justify-center items-center bg-backgroundMain overflow-x-hidden ">
         <div className="flex flex-col pb-4 pt-4 justify-center items-center row1  w-[100vw]">
           <div className="logoHolder flex  gap-x-4  justify-center items-center">
-            <div className="logoPic   w-[28vmin] md:w-[16vmin]  lg:w-[45vmin]">
+            <div className="logoPic w-[60%]  md:w-[16vmin]  lg:w-[45vmin]">
               <img
                 src="CodemapLogo.png"
                 className="max-w-full max-h-full object-contain"
@@ -12,7 +12,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="emailBoxHolder flex h-[10vmin] md:h-[7vmin] mt-[8vmin] lg:mt-6 2xl:mt-[4vmin]">
+          <div className="emailBoxHolder flex h-[10vmin] md:h-[7vmin] mt-[8vmin] lg:mt-8 2xl:mt-[4vmin]">
             <input
               type="text"
               className="w-[80vw] lg:w-[48vw] p-2 md:p-3 text-[4.5vmin] md:text-[2.45vmin]"
