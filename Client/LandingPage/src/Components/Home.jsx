@@ -1,7 +1,11 @@
+import About from "./About";
 import Hero from "./Hero";
+import Services from "./Services";
 import Line from "./Line";
 import Navbar from "./Navbar";
 import RevolvingHeader from "./RevolvingHeader";
+import Footer from "./Footer";
+import Contact from "./Contact";
 const Home = () => {
   return (
     <>
@@ -10,6 +14,10 @@ const Home = () => {
       <Navbar />
       <Line />
       <Hero />
+      <About />
+      <Services />
+      <Contact />
+      <Footer />
     </>
   );
 };

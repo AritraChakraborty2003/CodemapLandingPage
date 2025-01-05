@@ -1,7 +1,7 @@
 const Hero = () => {
   return (
     <>
-      <div className="bannerContainer bg-mainBg w-[100vw] pb-10 lg:pb-0 lg:h-[80vh] flex flex-wrap">
+      <div className="bannerContainer bg-mainBg w-[100vw] pb-10 lg:pb-0 lg:h-[80vh] lg:overflow-y-hidden flex flex-wrap">
         <div className="leftHolder lg:w-[45vw]">
           <div className="mainHolder h-[53vh] lg:h-full md:w-[100vw] lg:w-full flex justify-center  ">
             <div className="imageHolder flex lg:justify-start   lg:items-center w-[96%] h-[99%] md:w-[75%]  lg:w-[98%] lg:h-[99%] ">
@@ -13,7 +13,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="rightHolder mt-[-9vmin] lg:mt-0  w-[100vw] lg:w-[55vw] h-full  pb-4 lg:pb-0">
+        <div className="rightHolder mt-[-9vmin] lg:mt-[-3vmin]  w-[100vw] lg:w-[55vw] h-full  pb-4 lg:pb-0 ">
           <div className="textContainerBox flex h-full w-full justify-center lg:justify-start items-center lg:pl-10">
             <div className="textHolder flex flex-col gap-y-6 justify-center pl-3">
               <div>

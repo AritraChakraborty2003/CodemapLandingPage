@@ -4,7 +4,7 @@ const Navbar = () => {
       {screen.width > 1000 ? (
         <div className="w-[100vw] flex h-[10vmin]  bg-mainBg ">
           <div className="leftHolder w-[30vw]  bg-mainBg">
-            <div className="logoHolder w-[20vmin] md:w-[14vmin] h-[9vmin] ml-3 p-1  bg-mainBg flex justify-center items-center">
+            <div className="logoHolder w-[20vmin] md:w-[18vmin] h-[10vmin] ml-3 p-1  bg-mainBg flex justify-center items-center">
               <img
                 src="CodemapLogo.png"
                 alt="logo"
