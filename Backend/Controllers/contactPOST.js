@@ -8,6 +8,7 @@ const contactPOST = () => {
       const result = await newContact.save();
       res.status(201).json(result);
     } catch (error) {
+      console.error(error);
       res
         .status(400)
         .send({ message: error.message, error: "Invalid database entries!!!" });

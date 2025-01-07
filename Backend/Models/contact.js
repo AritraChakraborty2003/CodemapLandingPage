@@ -19,23 +19,15 @@ const contactSchema = mongoose.Schema(
         },
         message: (props) => `${props.value} is not a valid email address!`,
       },
-      unique: true,
     },
-    phone: {
+    organization: {
       type: String,
-      required: true,
-      unique: true,
-      match: [
-        /^[6-9]\d{9}$/,
-        "Please enter a valid 10-digit phone number starting with 6, 7, 8, or 9",
-      ],
-    },
-    address: {
-      type: String,
+      trim: true,
       required: true,
     },
-    company: {
+    message: {
       type: String,
+      trim: true,
       required: true,
     },
   },

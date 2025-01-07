@@ -12,16 +12,19 @@ const MongoDB_URI = process.env.MONGODB_URI;
 DBConnect(MongoDB_URI);
 
 // Application Level Middlewares
-const corsConfig = {
-  origin: [process.env.FRONTEND_URL_TEST],
-  credentials: true,
-  methods: ["GET", "POST", "PUT", "DELETE", "PATCH"],
+
+const corsOptions = {
+  origin: [process.env.FRONTEND_URL_TEST], // Allowed domain
+  methods: ["GET", "POST", "PATCH", "DELETE"], // Allowed HTTP methods
+  allowedHeaders: ["Content-Type", "Authorization"], // Allowed headers
 };
+
+app.use(cors(corsOptions));
+
 app.use(express.static("public"));
 app.use(express.json());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(cors(corsConfig));
 
 // API Endpoints
 app.use("/", generalRouter);
