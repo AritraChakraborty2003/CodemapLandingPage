@@ -19,3 +19,7 @@ li {
   box-sizing: border-box;
   overflow-x: hidden;
 }
+
+*:focus {
+  outline: none;
+}

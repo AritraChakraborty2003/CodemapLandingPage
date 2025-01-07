@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="footerHolder pb-4 pt-4 bg-mainBg flex flex-col justify-center items-center bg-backgroundMain overflow-x-hidden ">
         <div className="flex flex-col pb-4 pt-4 justify-center items-center row1  w-[100vw]">
           <div className="logoHolder flex  gap-x-4  justify-center items-center">
-            <div className="logoPic w-[60%]  md:w-[16vmin]  lg:w-[45vmin]">
+            <div className="logoPic w-[60%]  md:w-[36vmin]  lg:w-[45vmin]">
               <img
                 src="CodemapLogo.png"
                 className="max-w-full max-h-full object-contain"

@@ -23,6 +23,20 @@ const Services = () => {
       image: "event1.png",
       url: "https://community.codemap.online",
     },
+    {
+      title: "Tech Estore",
+      description:
+        "We have ecommerce store  where we sell technical product like books,goodies etc",
+      image: "ecom.png",
+      url: "https://community.codemap.online",
+    },
+    {
+      title: "E-News",
+      description:
+        "E-news portal where we manage technical,geo-political & social news.",
+      image: "news.png",
+      url: "https://community.codemap.online",
+    },
   ];
   return (
     <>
@@ -32,7 +46,7 @@ const Services = () => {
             Our <span className="text-purple">Services</span>
           </p>
         </div>
-        <div className="servicesHolder gap-y-5 flex flex-wrap justify-center items-center gap-x-12 pb-12 pt-10">
+        <div className="servicesHolder gap-y-12 flex flex-wrap justify-center items-center gap-x-12 pb-12 pt-10">
           <Card data={data} />
         </div>
       </div>

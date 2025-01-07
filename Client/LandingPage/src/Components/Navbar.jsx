@@ -25,7 +25,7 @@ const Navbar = () => {
       ) : (
         <div className="w-[100vw] flex h-[16vmin]  bg-mainBg ">
           <div className="leftHolder w-[50vw]   bg-mainBg">
-            <div className="logoHolder w-[37vmin] h-[16vmin] ml-3 p-1  bg-mainBg flex justify-center items-center">
+            <div className="logoHolder w-[37vmin] h-[16vmin] md:w-[27vmin] md:h-[16vmin] ml-3 p-1  bg-mainBg flex justify-center items-center">
               <img
                 src="CodemapLogo.png"
                 alt="logo"
