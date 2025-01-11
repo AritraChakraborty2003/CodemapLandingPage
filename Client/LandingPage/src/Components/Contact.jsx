@@ -149,7 +149,7 @@ const Contact = () => {
               </button>
             </div>
           </div>
-          <div className="detailsHolder hidden lg:block lg:w-[40vw] border-l-[0.35px] ">
+          <div className="detailsHolder hidden lg:block lg:w-[40vw] border-l-[0.35px] pb-6 ">
             <div className="detailesInnerHolder mt-6 flex flex-col justify-center items-center gap-y-10">
               <div className="imageHolder w-[94%] lg:h-[35vh] p-2 flex justify-center items-center ">
                 <img
@@ -160,6 +160,7 @@ const Contact = () => {
               <div className="detailsHolder w-[94%]   flex flex-col justify-center items-center gap-y-4 pl-3 pt-1 ">
                 <DetailsBox data={data} />
               </div>
+
               <div className="imageHolder w-[94%]   flex gap-x-12 mt-6 justify-center items-center">
                 <SocialIcons socials={socials} />
               </div>

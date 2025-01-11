@@ -3,7 +3,14 @@ const RevolvingHeader = () => {
   return (
     <Marquee speed={90}>
       <div className="mainBody w-[100vw] p-1 bg-purple text-white border-mainText">
-        {screen.width < 1700 && (
+        {screen.width <= 1000 && (
+          <div className="offerHeader flex justify-center text-center text-[2.75vmin]">
+            <p>Your trusted community</p>
+            &nbsp;&nbsp;| &nbsp;&nbsp;
+            <p>email: codemap2024@gmail.com</p>
+          </div>
+        )}
+        {screen.width > 1000 && screen.width < 1700 && (
           <div className="offerHeader flex justify-center text-center">
             <p>Your trusted community</p>
             &nbsp;&nbsp;| &nbsp;&nbsp;

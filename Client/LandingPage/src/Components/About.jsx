@@ -2,7 +2,7 @@
 const About = () => {
   return (
     <>
-      <div className="aboutHolder mt-6 md:mt-12 lg:mt-3 flex  pb-3 flex-wrap justify-center items-center">
+      <div className="aboutHolder mt-8 md:mt-12 lg:mt-3 flex  pb-1 flex-wrap justify-center items-center">
         <div className="leftHolder  w-[96vw] md:w-[90vw] lg:w-[45vw] lg:h-[97vh]  flex justify-center items-center">
           <div className="imageHolder lg:mt-16 lg:mr-3 w-[94%] h-[65%] ">
             <img
@@ -12,7 +12,7 @@ const About = () => {
             />
           </div>
         </div>
-        <div className="rightHolder flex flex-col gap-y-4 pl-2 md:pl-4 2xl:pl-6 w-[100vw]  lg:w-[53vw] pt-8 pb-8">
+        <div className="rightHolder flex flex-col gap-y-4 pl-2 md:pl-4 2xl:pl-6 w-[100vw]  lg:w-[53vw] pt-8 pb-1 lg:pb-2">
           <div className="aboutHeaderHolder flex flex-col gap-y-2">
             <div className="smallAboutTitle">
               <p
@@ -45,7 +45,7 @@ const About = () => {
           <div className="optionsHolder w-[100vw]  lg:w-[53vw] flex flex-col gap-y-1 mt-3">
             <div className="upperHolder w-[99vw] lg:w-[52vw] flex   gap-x-3">
               <div className="opt1">
-                <div className="optHolder flex flex-col gap-y-1 w-[47vw] lg:w-[25.5vw] pb-10">
+                <div className="optHolder flex flex-col gap-y-1 w-[46vw] lg:w-[25.5vw] pb-10">
                   <div className="titleHolder flex gap-x-2 lg:gap-x-3 ">
                     <div className="titleIcon">
                       {screen.width > 767 ? (
@@ -69,7 +69,7 @@ const About = () => {
                 </div>
               </div>
               <div className="opt2">
-                <div className="optHolder flex flex-col  gap-y-1  w-[47vw] lg:w-[25.5vw] pb-10 ">
+                <div className="optHolder flex flex-col  gap-y-1  w-[46vw] lg:w-[25.5vw] pb-10 ">
                   <div className="titleHolder flex gap-x-2 lg:gap-x-3 ">
                     <div className="titleIcon">
                       {screen.width > 767 ? (
@@ -96,7 +96,7 @@ const About = () => {
 
             <div className="lowerHolder  w-[99vw] lg:w-[52vw]  flex   gap-x-3">
               <div className="opt3">
-                <div className="optHolder flex flex-col gap-y-4  w-[48vw] lg:w-[25.5vw] pb-10 ">
+                <div className="optHolder flex flex-col gap-y-4  w-[46vw] lg:w-[25.5vw] pb-10 ">
                   <div className="titleHolder flex gap-x-2 lg:gap-x-3 ">
                     <div className="titleIcon">
                       {screen.width > 767 ? (
@@ -121,7 +121,7 @@ const About = () => {
                 </div>
               </div>
               <div className="opt4">
-                <div className="optHolder flex flex-col gap-y-4   w-[48vw] lg:w-[25.5vw] pb-10 ">
+                <div className="optHolder flex flex-col gap-y-4   w-[46vw] lg:w-[25.5vw] pb-10 ">
                   <div className="titleHolder flex gap-x-2 lg:gap-x-3 ">
                     <div className="titleIcon">
                       {screen.width > 767 ? (
@@ -139,8 +139,8 @@ const About = () => {
                   <div className="optDescr">
                     <p className=" text-grey lg:ml-6 text-[2vmin]  md:text-[1.95vmin] mt-1 pl-4">
                       We have ecommerce business segment or e-store where we
-                      sell technical products <br></br>like books, goodies,
-                      swags, codemap tshirts,pens and many more
+                      sell technical products like books, goodies, swags,
+                      codemap tshirts,pens and many more
                     </p>
                   </div>
                 </div>
