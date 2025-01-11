@@ -2,7 +2,7 @@
 const About = () => {
   return (
     <>
-      <div className="aboutHolder mt-8 md:mt-12 lg:mt-3 flex  pb-1 flex-wrap justify-center items-center">
+      <div className="aboutHolder mt-8 md:mt-12 lg:mt-3 flex  pb-6 pb-6 flex-wrap justify-center items-center">
         <div className="leftHolder  w-[96vw] md:w-[90vw] lg:w-[45vw] lg:h-[97vh]  flex justify-center items-center">
           <div className="imageHolder lg:mt-16 lg:mr-3 w-[94%] h-[65%] ">
             <img
@@ -25,7 +25,7 @@ const About = () => {
             <div className="mainTitleHolder">
               <p
                 id="mainTitle"
-                className="text-black font-extrabold text-[6.5vmin]"
+                className="text-black font-extrabold text-[6.5vmin] lg:text-[5vmin] 2xl:text-[6.5vmin]"
               >
                 We are an one stop technical platform
               </p>

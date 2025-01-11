@@ -22,11 +22,21 @@ const Navbar = () => {
             </div>
             <div className="rightHolder flex justify-center items-center w-[50vw] ">
               <ul className="flex gap-x-10 text-[2.15vmin] ">
-                <li>About-Us</li>
-                <li>Services</li>
+                <li>
+                  <a href="#about">About-Us</a>
+                </li>
+                <li>
+                  {" "}
+                  <a href="#services">Services</a>
+                </li>
                 <li>Careers</li>
-                <li>Community</li>
-                <li>Contact</li>
+                <li>
+                  <a href="https://community.codemap.online">Community</a>
+                </li>
+                <li>
+                  {" "}
+                  <a href="#contact">Contact</a>
+                </li>
               </ul>
             </div>
           </div>
